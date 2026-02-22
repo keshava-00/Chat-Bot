@@ -1,0 +1,242 @@
+
+/* LANDING PAGE CSS ----------------->>>>*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.app{
+    max-width: 402px;
+    height:874px;
+    border: 2px solid black;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F7FB;
+    position: relative;
+    height: 100vh;
+
+    
+    
+}
+
+.top{
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    text-align: center;
+    flex-shrink: 0;
+    padding: 10px 0;
+
+}
+
+.top h1{
+    margin-top:auto;
+    
+}
+
+.i-con{
+    max-width: 100%;
+    height: 100px;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.head{
+    font-size: 100px;
+    margin-bottom: 50px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.body{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-pr{
+    width: 150px;
+    height: 50px;
+    background-color: #ffffff;
+    color:000000;
+    font-size: 20px;
+    border-radius: 20px ;
+    border:1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+
+}
+
+.btn-pr:hover{
+    opacity:0.7;
+}
+
+
+
+
+
+/******************** CHAT PAGE CSS **********************/
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+
+.icon-1{
+    max-width: 50px;
+    height: auto;
+    margin-top: 30px;
+    cursor: pointer;
+    position:absolute;
+    right:210px;
+
+}
+
+.head-1{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  padding-top: 80px;
+ 
+}
+
+.body-pr{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+    padding-bottom: 90px;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.body-1{
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 100px;
+  opacity: 0.7;
+  flex: 1;
+  overflow: hidden;
+  
+}
+
+
+.buttom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    flex-shrink: 0;
+    padding: 10px 0;
+    
+    
+}
+
+
+.int{
+    
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    align-items: center;
+
+}
+
+.input-box{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 50px;
+}
+
+
+.input-box input{
+    width: 300px;
+    height: 45px;
+    padding: 0 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+
+.enter-icon{
+    width: 50px;
+    position: absolute;
+    padding-right:50px;
+    padding-bottom: 10px;
+    transform: translateX(-50%);
+    
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.user-msg {
+  align-self: flex-end;
+  background: #4f7cff;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 16px 16px 4px 16px;
+  margin: 6px 0;
+  max-width: 75%;
+  font-size: 14px;
+}
+
+.bot-msg {
+  align-self: flex-start;
+  background: #e9e9e9;
+  color: #000;
+  padding: 10px 14px;
+  border-radius: 16px 16px 16px 4px;
+  margin: 6px 0;
+  max-width: 75%;
+  font-size: 14px;
+}
+
+
+.msg-time {
+  font-size: 10px;
+  color: #666;
+  display: block;
+  margin-top: 4px;
+  text-align: right;
+}
